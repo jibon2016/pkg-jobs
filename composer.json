@@ -1,0 +1,27 @@
+{
+    "name": "jibon/jobs",
+    "description": "A Jobs Seeking and Posting Addon for laravel",
+    "license": "MIT",
+    "type" : "library",
+    "autoload": {
+        "psr-4": {
+            "Jibon\\Jobs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jibon2016",
+            "email": "jibon2016@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^8.11"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jibon\\Jobs\\JobServiceProvider"
+            ]
+        }
+    }
+}
